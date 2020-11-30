@@ -39,7 +39,7 @@ else:
 import time
 import sys
 import http.client as http
-Import urllib
+import urllib
 import json
 deviceId = "DH0ZnDBP“
 deviceKey = “BxBl0Lvt0cSAcAfd“ 
