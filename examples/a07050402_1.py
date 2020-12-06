@@ -1,5 +1,5 @@
 #/usr/bin/python3
-import socket
+
 import Adafruit_DHT
 import time
 import sys
