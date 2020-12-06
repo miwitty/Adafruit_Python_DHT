@@ -5,15 +5,15 @@ import time
 import sys
 import http.client as http
 import urllib
-import pi.GPIO as GPIO
+import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(4,GPIO.IN)
 GPIO_PIN=4
 
 
-deviceId = DH0ZnDBP
-deviceKey = BxBl0Lvt0cSAcAfd
+deviceId = "DH0ZnDBP"
+deviceKey = "BxBl0Lvt0cSAcAfd"
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
 	not_connected = 1 
